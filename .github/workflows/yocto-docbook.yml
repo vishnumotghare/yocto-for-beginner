@@ -36,6 +36,7 @@ jobs:
     - name: Meson version
       run: meson --version
     - name: Ninja version
+      run: ninja --version
     - name: Build source code
       run: |
         meson builddir
