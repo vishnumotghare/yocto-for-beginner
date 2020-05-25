@@ -1,0 +1,11 @@
+Build started at 2020-05-25T17:34:29.445994
+Main binary: /usr/bin/python3
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 0.54.2
+Source dir: /home/vishnu/Projects/yocto-for-beginner/docs
+Build dir: /home/vishnu/Projects/yocto-for-beginner/docs/build
+Build type: native build
+
+ERROR: First statement must be a call to project

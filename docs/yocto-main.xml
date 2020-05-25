@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE book PUBLIC '-//OASIS//DTD DocBook XML V4.5///EN'
+                      'http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd' [
+<!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+]>
+<book id="index" xmlns:xi="http://www.w3.org/2003/XInclude">
+  <bookinfo>
+    <title>Yocto Quick Start Guide For Begineer</title>
+    <author>
+      <personname>
+        <honorific>Mr</honorific>
+        <firstname>Vishnu</firstname>
+        <surname>Motghare</surname>
+        <othername role='mi'>R</othername>
+      </personname>
+      <affiliation>
+         <jobtitle>Senior Software Engineer</jobtitle>
+          <orgname>Eaton Innovation Pvt. Ltd.</orgname>
+         <orgdiv>Embedded Software Development</orgdiv>
+        </affiliation>
+    </author>
+    <copyright>
+      <year>2019, 2020
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata width="100px" depth="100px" scalefit="1" fileref="yocto-logo.png" align="right"/>
+          </imageobject>
+        </inlinemediaobject>
+      </year>
+    </copyright>
+  </bookinfo>
+
+</book>
