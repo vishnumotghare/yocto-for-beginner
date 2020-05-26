@@ -1,0 +1,25 @@
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<chapter id='Getting started'>
+    <title>Getting started with yocto on Ubuntu</title>
+
+    <section id='Install required packages'>
+        <title>Install Required packages</title>
+         <para>
+            Following packages need to install on ubuntu machine
+	 </para>
+            <literallayout class='monospaced'>
+     $ sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib \
+     build-essential chrpath socat cpio python3 python3-pip python3-pexpect \
+     xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev \
+     pylint3 xterm
+            </literallayout>
+	<para>
+	   Following packages need to install for building yocto documentation reference manual
+        </para>
+          <literallayout class='monospaced'>
+    $ sudo apt-get install make xsltproc docbook-utils fop dblatex xmlto
+          </literallayout>
+    </section>
+</chapter>

@@ -7,5 +7,7 @@ gnome.gtkdoc('yocto-docbook',
                  'images/yocto-logo.png',
                  
                ],
+ #               content_files : [
+  #               'hello-world.xml'],
                install: true,
                check: true)

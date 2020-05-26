@@ -29,4 +29,6 @@
       </year>
     </copyright>
   </bookinfo>
+  <xi:include href="getting-started.xml"/>
+  <xi:include href="hello-world.xml"/>
 </book>
