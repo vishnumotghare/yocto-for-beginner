@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<book xmlns="http://www.devhelp.net/book" title="Yocto Quick Start Guide For Begineer" link="index.html" author="" name="yocto-docbook" version="2" language="c">
+  <chapters>
+    <sub name="Getting started with yocto on Ubuntu" link="Getting started.html">
+      <sub name="Install Required packages" link="Getting started.html#Install required packages"/>
+    </sub>
+    <sub name="Hello World Example" link="hello-world-example.html"/>
+  </chapters>
+  <functions/>
+</book>
