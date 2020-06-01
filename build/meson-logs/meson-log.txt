@@ -1,0 +1,175 @@
+Build started at 2020-06-01T19:03:09.102392
+Main binary: /usr/bin/python3
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 0.54.2
+Source dir: /home/vishnu/Projects/yocto-for-beginner
+Build dir: /home/vishnu/Projects/yocto-for-beginner/build
+Build type: native build
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Project name: yocto-docbook
+Project version: 1.0.0
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/vishnu/Projects/yocto-for-beginner/build/meson-private/sanitycheckc.c -o /home/vishnu/Projects/yocto-for-beginner/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/vishnu/Projects/yocto-for-beginner/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 5.4.0 "cc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609")
+C linker for the build machine: cc ld.bfd 2.26.1
+None of 'AR' are defined in the environment, not changing global flags.
+None of 'CXX' are defined in the environment, not changing global flags.
+None of 'CXXFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /home/vishnu/Projects/yocto-for-beginner/build/meson-private/sanitycheckcpp.cc -o /home/vishnu/Projects/yocto-for-beginner/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/vishnu/Projects/yocto-for-beginner/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: c++ (gcc 5.4.0 "c++ (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609")
+C++ linker for the build machine: c++ ld.bfd 2.26.1
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/vishnu/Projects/yocto-for-beginner/build/meson-private/sanitycheckc.c -o /home/vishnu/Projects/yocto-for-beginner/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/vishnu/Projects/yocto-for-beginner/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 5.4.0 "cc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609")
+C linker for the host machine: cc ld.bfd 2.26.1
+None of 'AR' are defined in the environment, not changing global flags.
+None of 'CXX' are defined in the environment, not changing global flags.
+None of 'CXXFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /home/vishnu/Projects/yocto-for-beginner/build/meson-private/sanitycheckcpp.cc -o /home/vishnu/Projects/yocto-for-beginner/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/vishnu/Projects/yocto-for-beginner/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: c++ (gcc 5.4.0 "c++ (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609")
+C++ linker for the host machine: c++ ld.bfd 2.26.1
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Pkg-config binary for MachineChoice.HOST is not cached.
+None of 'PKG_CONFIG' are defined in the environment, not changing global flags.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Trying pkg-config binary pkg-config for machine MachineChoice.HOST at ['/usr/bin/pkg-config']
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Determining dependency 'glib-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion glib-2.0` -> 0
+2.48.2
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags glib-2.0` -> 0
+-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config glib-2.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config glib-2.0 --libs` -> 0
+-lglib-2.0
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/vishnu/Projects/yocto-for-beginner/build/meson-private/tmpw6tfsfrq
+Command line:  c++ /home/vishnu/Projects/yocto-for-beginner/build/meson-private/tmpw6tfsfrq/testfile.cpp -o /home/vishnu/Projects/yocto-for-beginner/build/meson-private/tmpw6tfsfrq/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/vishnu/Projects/yocto-for-beginner/build/meson-private/tmpj9z03pw8
+Command line:  c++ /home/vishnu/Projects/yocto-for-beginner/build/meson-private/tmpj9z03pw8/testfile.cpp -o /home/vishnu/Projects/yocto-for-beginner/build/meson-private/tmpj9z03pw8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/5/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/5/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/5/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency glib-2.0 found: YES 2.48.2
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gio-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gio-2.0` -> 0
+2.48.2
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gio-2.0` -> 0
+-pthread -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gio-2.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgio-2.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gio-2.0 --libs` -> 0
+-lgio-2.0 -lgobject-2.0 -lglib-2.0
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency gio-2.0 found: YES 2.48.2
+Program xmllint found: YES (/usr/bin/xmllint)
+Running command: /usr/bin/xmllint --noout --xinclude --postvalid noent yocto-main.xml
+--- stdout ---
+
+--- stderr ---
+warning: failed to load external entity "noent"
+getting-started.xml:4: element chapter: validity error : Syntax of value for attribute id of chapter is not valid
+getting-started.xml:7: element section: validity error : Syntax of value for attribute id of section is not valid
+hello-world.xml:4: element chapter: validity error : Element chapter content does not follow the DTD, expecting (beginpage? , chapterinfo? , (title , subtitle? , titleabbrev?) , (toc | lot | index | glossary | bibliography)* , tocchap? , (((calloutlist | glosslist | bibliolist | itemizedlist | orderedlist | segmentedlist | simplelist | variablelist | caution | important | note | tip | warning | literallayout | programlisting | programlistingco | screen | screenco | screenshot | synopsis | cmdsynopsis | funcsynopsis | classsynopsis | fieldsynopsis | constructorsynopsis | destructorsynopsis | methodsynopsis | formalpara | para | simpara | address | blockquote | graphic | graphicco | mediaobject | mediaobjectco | informalequation | informalexample | informalfigure | informaltable | equation | example | figure | table | msgset | procedure | sidebar | qandaset | task | anchor | bridgehead | remark | highlights | abstract | authorblurb | epigraph | indexterm | beginpage)+ , (sect1* | refentry* | simplesect* | section*)) | sect1+ | refentry+ | simplesect+ | section+) , (toc | lot | index | glossary | bibliography)*), got (title )
+Document yocto-main.xml does not validate
+
+
+
+docs/meson.build:7:4: ERROR: Problem encountered: Not valid xml file
