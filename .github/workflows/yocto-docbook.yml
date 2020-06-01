@@ -42,4 +42,3 @@ jobs:
       run: |
         meson builddir
         ninja -C builddir
-        ninja -C builddir install DESTDIR=../docbook
