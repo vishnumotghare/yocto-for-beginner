@@ -1,10 +1,10 @@
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
-"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
 
-<chapter id='Getting started'>
+<chapter id="getting-started">
     <title>Getting started with yocto on Ubuntu</title>
 
-    <section id='Install required packages'>
+    <section id="Install-required-packages">
         <title>Install Required packages</title>
          <para>
             Following packages need to install on ubuntu machine
