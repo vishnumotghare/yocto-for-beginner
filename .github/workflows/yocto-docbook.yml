@@ -32,7 +32,7 @@ jobs:
         sudo pip install ninja
         sudo pip3 install meson
         sudo apt-get install gtk-doc-tools
-        sudo apt-get install xmllint
+        sudo apt-get install -y xsltproc
     - name: Python version
       run: python3 --version
     - name: Meson version
