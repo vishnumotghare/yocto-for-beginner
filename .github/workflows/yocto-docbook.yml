@@ -44,3 +44,4 @@ jobs:
       run: |
         meson builddir
         ninja -C builddir
+        ninja -C builddir check-xml
