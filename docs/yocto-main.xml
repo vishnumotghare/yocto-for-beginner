@@ -1,11 +1,24 @@
 <?xml version="1.0"?>
-<!DOCTYPE book PUBLIC '-//OASIS//DTD DocBook XML V4.5///EN'
-                      'http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd' [
+<!DOCTYPE book PUBLIC '-//OASIS//DTD DocBook XML V4.2///EN'
+                      'http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd' [
 <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
 ]>
 <book id="index" xmlns:xi="http://www.w3.org/2003/XInclude">
+  
   <bookinfo>
+    
     <title>Yocto Quick Start Guide For Begineer</title>
+    
+    <abstract>
+      The Yocto Project Mega-Manual is a concatenation of the published
+            Yocto Project HTML manuals along with the corresponding BitBake
+            User Manual for the given release.
+            The Mega-Manual exists to help users efficiently search for strings
+            across the entire Yocto Project documentation set inclusive of
+            the BitBake User Manual.
+
+    </abstract>
+
     <authorgroup>
             <author>
                 <firstname>Vishnu </firstname> <surname>Motghare</surname>
@@ -16,6 +29,7 @@
                 <email>vishnumotghare@gmail.com</email>
             </author>
     </authorgroup>
+    
     <copyright>
       <year>2020 2021
         <inlinemediaobject>
@@ -25,7 +39,8 @@
         </inlinemediaobject>
       </year>
     </copyright>
-  </bookinfo>
+
+</bookinfo>
   <xi:include href="getting-started.xml"/>
   <xi:include href="hello-world.xml"/>
 </book>
