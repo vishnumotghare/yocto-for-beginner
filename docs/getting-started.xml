@@ -3,34 +3,44 @@
 
 <chapter id="getting-started">
   <title>Getting started with yocto on Ubuntu</title>
-    <para>
-        Following packages need to install on ubuntu machine
-	</para>
-        <literallayout class='monospaced'>
-     $ sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib \
-     build-essential chrpath socat cpio python3 python3-pip python3-pexpect \
-     xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev \
-     pylint3 xterm
-          </literallayout>
-	<para>
-	   Following packages need to install for building yocto documentation reference manual
-    </para>
-        <literallayout class='monospaced'>
-    $ sudo apt-get install make xsltproc docbook-utils fop dblatex xmlto
-          </literallayout>
 
-    <para>
-        Checkout latest version of yocto 
-    </para>
-         <literallayout class='monospaced'>
-    $ git clone git://git.yoctoproject.org/poky
-      Cloning into 'poky'...
-      remote: Enumerating objects: 476857, done.
-      remote: Counting objects: 100% (476857/476857), done.
-      remote: Compressing objects: 100% (112644/112644), done.
-      remote: Total 476857 (delta 356937), reused 476453 (delta 356606)
-      Receiving objects: 100% (476857/476857), 163.70 MiB | 4.90 MiB/s, done.
-      Resolving deltas: 100% (356937/356937), done.
-      Checking connectivity... done.
-        </literallayout>
+  <itemizedlist>
+    <listitem>
+        <para>
+            Following packages need to install on ubuntu machine
+	   </para>
+       <programlisting><![CDATA[
+$ sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib \
+build-essential chrpath socat cpio python3 python3-pip python3-pexpect \
+xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev \
+pylint3 xterm
+          ]]></programlisting>
+    </listitem>
+
+    <listitem>    
+	   <para>
+	       Following packages need to install for building yocto documentation reference manual
+        </para>
+        <programlisting><![CDATA[
+$ sudo apt-get install make xsltproc docbook-utils fop dblatex xmlto
+         ]]></programlisting>
+
+    </listitem>
+    
+    <listitem>
+       <para>
+            Checkout latest version of yocto 
+      </para>
+        <programlisting><![CDATA[
+$ git clone git://git.yoctoproject.org/poky
+  Cloning into 'poky'...
+  remote: Enumerating objects: 476857, done.
+  remote: Counting objects: 100% (476857/476857), done.
+  remote: Compressing objects: 100% (112644/112644), done.
+  Receiving objects: 100% (476857/476857), 163.70 MiB | 4.90 MiB/s, done.
+  Resolving deltas: 100% (356937/356937), done.
+  Checking connectivity... done.
+        ]]></programlisting>
+    </listitem>
+  </itemizedlist> 
 </chapter>
