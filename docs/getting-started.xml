@@ -3,6 +3,7 @@
 
 <chapter id="getting-started">
   <title>Getting started with yocto on Ubuntu</title>
+    <titleabbrev>Getting Started</titleabbrev>
 
   <itemizedlist>
     <listitem>
@@ -29,7 +30,7 @@ $ sudo apt-get install make xsltproc docbook-utils fop dblatex xmlto
     
     <listitem>
        <para>
-            Checkout latest version of yocto 
+         Clone latest version of yocto 
       </para>
         <programlisting><![CDATA[
 $ git clone git://git.yoctoproject.org/poky
@@ -42,5 +43,13 @@ $ git clone git://git.yoctoproject.org/poky
   Checking connectivity... done.
         ]]></programlisting>
     </listitem>
+    <listitem>
+      <para>
+        Checkout latest branch
+      </para>
+      <programlisting><![CDATA[
+$ git checkout zeus
+       ]]></programlisting>
+     </listitem> 
   </itemizedlist> 
 </chapter>
