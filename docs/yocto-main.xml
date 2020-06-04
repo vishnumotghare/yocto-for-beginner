@@ -10,34 +10,30 @@
     <title>Yocto Quick Start Guide For Begineer</title>
     
     <abstract>
-      The Yocto Project Mega-Manual is a concatenation of the published
-            Yocto Project HTML manuals along with the corresponding BitBake
-            User Manual for the given release.
-            The Mega-Manual exists to help users efficiently search for strings
-            across the entire Yocto Project documentation set inclusive of
-            the BitBake User Manual.
-
+      <para>
+        ToDo
+      </para>
     </abstract>
-
+ 
     <authorgroup>
-            <author>
-                <firstname>Vishnu </firstname> <surname>Motghare</surname>
-                <affiliation>
-                	<jobtitle>Senior Software Engineer</jobtitle>
-         			<orgdiv>Embedded Software Development</orgdiv>
-                </affiliation>
-                <email>vishnumotghare@gmail.com</email>
-            </author>
+      <author>
+        <firstname>Vishnu </firstname> <surname>Motghare</surname>
+          <affiliation>
+            <jobtitle>Senior Software Engineer</jobtitle>
+         		<orgdiv>Embedded Software Development</orgdiv>
+          </affiliation>
+          <email>vishnumotghare@gmail.com
+            <inlinemediaobject>
+              <imageobject>
+                <imagedata width="100px" depth="100px" scalefit="1" fileref="yocto-logo.png" align="right"/>
+              </imageobject>
+            </inlinemediaobject>
+          </email>
+      </author>
     </authorgroup>
     
     <copyright>
-      <year>2020 2021
-        <inlinemediaobject>
-          <imageobject>
-            <imagedata width="100px" depth="100px" scalefit="1" fileref="yocto-logo.png" align="right"/>
-          </imageobject>
-        </inlinemediaobject>
-      </year>
+      <year>2020 2021</year>
     </copyright>
 
 </bookinfo>
