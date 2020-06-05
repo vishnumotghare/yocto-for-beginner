@@ -1,38 +1,43 @@
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
-	"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
 
 <chapter id="getting-started">
-  <title>Getting started with yocto on Ubuntu</title>
-    <titleabbrev>Getting Started</titleabbrev>
+    <title>Setting build environment on host machine</title>
+        <titleabbrev>Getting Started</titleabbrev>
 
-  <itemizedlist>
-    <listitem>
-        <para>
-            Following packages need to install on ubuntu machine
-	   </para>
-       <programlisting><![CDATA[
+        <note><title>Notes</title>
+            <itemizedlist>
+                <listitem>
+                    <para>
+                        <emphasis>To start working with yocto following packages need to install on ubuntu machine</emphasis>
+                    </para>
+                    <programlisting><![CDATA[
 $ sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib \
 build-essential chrpath socat cpio python3 python3-pip python3-pexpect \
 xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev \
 pylint3 xterm
-          ]]></programlisting>
-    </listitem>
+                    ]]></programlisting>
+                </listitem>
 
-    <listitem>    
-	   <para>
-	       Following packages need to install for building yocto documentation reference manual
-        </para>
-        <programlisting><![CDATA[
+                <listitem>    
+                    <para>
+                        <emphasis>If you are gona building the yocto reference manual. Following packages need to install to buid documets</emphasis>
+                    </para>
+                    <programlisting><![CDATA[
 $ sudo apt-get install make xsltproc docbook-utils fop dblatex xmlto
-         ]]></programlisting>
+                    ]]></programlisting>
 
-    </listitem>
+                </listitem>
     
-    <listitem>
-       <para>
-         Clone latest version of yocto 
-      </para>
-        <programlisting><![CDATA[
+                <listitem>
+                    <para>
+                        <emphasis>To start working with yocto, we need to clone the yocto source code.
+                        Yocto source code is avaiable at <ulink url='https://git.yoctoproject.org/cgit/cgit.cgi/poky/'>poky</ulink> </emphasis>
+                    </para>
+                    <para>
+                        <emphasis>Checkout the source code using git clone</emphasis>
+                    </para>
+                    <programlisting><![CDATA[
 $ git clone git://git.yoctoproject.org/poky
   Cloning into 'poky'...
   remote: Enumerating objects: 476857, done.
@@ -41,15 +46,18 @@ $ git clone git://git.yoctoproject.org/poky
   Receiving objects: 100% (476857/476857), 163.70 MiB | 4.90 MiB/s, done.
   Resolving deltas: 100% (356937/356937), done.
   Checking connectivity... done.
-        ]]></programlisting>
-    </listitem>
-    <listitem>
-      <para>
-        Checkout latest branch
-      </para>
-      <programlisting><![CDATA[
-$ git checkout zeus
-       ]]></programlisting>
-     </listitem> 
-  </itemizedlist> 
+                    ]]></programlisting>
+                </listitem>
+            
+                <listitem>
+                    <para>
+                        <emphasis>Checkout latest branch associated with yocto project release e.g zeus (3.0.3)</emphasis>
+                    </para>
+                    <programlisting><![CDATA[
+$ cd poky
+$ git checkout -b zeus origin/zeus
+                    ]]></programlisting>
+                </listitem> 
+            </itemizedlist> 
+        </note>
 </chapter>
