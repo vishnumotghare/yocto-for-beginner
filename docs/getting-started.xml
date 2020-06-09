@@ -11,9 +11,7 @@
         <note><title>Notes</title>
             <itemizedlist>
                 <listitem>
-                    <para>
-                        <emphasis>To start working with yocto following packages need to install on ubuntu machine</emphasis>
-                    </para>
+                    <para><emphasis>To start working with yocto following packages need to install on ubuntu machine</emphasis></para>
                     <programlisting><![CDATA[
 $ sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib \
 build-essential chrpath socat cpio python3 python3-pip python3-pexpect \
@@ -23,9 +21,7 @@ pylint3 xterm
                 </listitem>
 
                 <listitem>    
-                    <para>
-                        <emphasis>If you are gona building the yocto reference manual. Following packages need to install to buid documets</emphasis>
-                    </para>
+                    <para><emphasis>If you are gona building the yocto reference manual. Following packages need to install to buid documets</emphasis></para>
                     <programlisting><![CDATA[
 $ sudo apt-get install make xsltproc docbook-utils fop dblatex xmlto
                     ]]></programlisting>
@@ -44,7 +40,7 @@ $ sudo apt-get install make xsltproc docbook-utils fop dblatex xmlto
           Yocto source code is avaiable at <ulink url='https://git.yoctoproject.org/cgit/cgit.cgi/poky/'>poky</ulink> </emphasis>
         </para>
         <para><emphasis>Checkout the source code using git clone</emphasis></para>
-          <programlisting><![CDATA[
+        <programlisting><![CDATA[
 $ git clone git://git.yoctoproject.org/poky
   Cloning into 'poky'...
   remote: Enumerating objects: 476857, done.
@@ -53,15 +49,15 @@ $ git clone git://git.yoctoproject.org/poky
   Receiving objects: 100% (476857/476857), 163.70 MiB | 4.90 MiB/s, done.
   Resolving deltas: 100% (356937/356937), done.
   Checking connectivity... done.
-      ]]></programlisting>
+        ]]></programlisting>
       </listitem>        
       
       <listitem>
         <para><emphasis>Checkout latest branch associated with yocto project release e.g zeus (3.0.3)</emphasis></para>
-          <programlisting><![CDATA[
+        <programlisting><![CDATA[
 $ cd poky
 $ git checkout -b zeus origin/zeus
-          ]]></programlisting>
+        ]]></programlisting>
       </listitem></itemizedlist>
     </note>
     <!-- ... -->
