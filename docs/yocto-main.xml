@@ -1,42 +1,73 @@
-<?xml version="1.0"?>
-<!DOCTYPE book PUBLIC '-//OASIS//DTD DocBook XML V4.2///EN'
-                      'http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd' [
-<!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
-]>
-<book id="index" xmlns:xi="http://www.w3.org/2003/XInclude">
-  
-  <bookinfo>
-    
-    <title>Yocto Quick Start Guide For Begineer</title>
-    
-    <abstract>
-      <para>
-        ToDo
-      </para>
-    </abstract>
- 
+<!-- Converted by db4-upgrade version 1.1 -->
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xml:id="index">
+  <info>
+    <title>Yocto Quick Start Guide</title>
+    <subtitle>Yocto Quick Start Guide For Bigineer</subtitle>
+    <biblioid class="isbn">978-0-596-8050-2-9</biblioid>
     <authorgroup>
       <author>
-        <firstname>Vishnu </firstname> <surname>Motghare</surname>
-          <affiliation>
-            <jobtitle>Senior Software Engineer</jobtitle>
-         		<orgdiv>Embedded Software Development</orgdiv>
-          </affiliation>
-          <email>vishnumotghare@gmail.com
-            <inlinemediaobject>
-              <imageobject>
-                <imagedata width="100px" depth="100px" scalefit="1" fileref="yocto-logo.png" align="right"/>
-              </imageobject>
-            </inlinemediaobject>
-          </email>
+        <personname>
+        <firstname>Vishnu</firstname>
+        <surname>Motghare</surname>
+        </personname>
       </author>
-    </authorgroup>
-    
-    <copyright>
-      <year>2020 2021</year>
-    </copyright>
-</bookinfo>
+   </authorgroup>
 
-  <xi:include href="getting-started.xml"/>
-  <xi:include href="hello-world.xml"/>
-</book>
+   <copyright>
+     <year>2020</year>
+     <holder>Vishnu Motghare, All rights reserved.
+      <inlinemediaobject>
+        <imageobject>
+          <imagedata width="100px" depth="100px"  scalefit="1" fileref="yocto-logo.png" align="right"/>
+        </imageobject>
+      </inlinemediaobject>
+     </holder>
+   </copyright>
+
+    <revhistory>
+      <revision>
+        <date>June 2020</date>
+        <revremark>First Edition.</revremark>
+     </revision>
+    </revhistory>
+
+   <cover>
+    <para role="tagline">The Official Documentation for DocBook</para>
+      <mediaobject>
+        <imageobject>
+      <imagedata fileref="images/cover-slides.png">
+        <info>
+          <othercredit>
+            <orgname></orgname>
+          </othercredit>
+          <othercredit>
+            <orgname></orgname>
+          </othercredit>
+        </info>
+      </imagedata>
+        </imageobject>
+      </mediaobject>
+   </cover>
+   <cover>
+    <mediaobject>
+      <imageobject>
+    <imagedata fileref="images/cover-slides.png"/>
+      </imageobject>
+    </mediaobject>
+   </cover>
+ </info>
+ 
+ <preface>
+ <title>Preface</title>
+ 
+ <para>DocBook provides a system …</para>
+ </preface>
+
+ <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" href="getting-started.xml"/>
+ <xi:include xmlns:xi="http://www.w3.org/2003/XInclude" href="hello-world.xml"/>
+
+ 
+ <!-- … -->
+ 
+ </book>
+ 

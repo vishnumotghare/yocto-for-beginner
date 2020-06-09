@@ -1,7 +1,5 @@
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
-"http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
-
-<chapter id="getting-started">
+<!-- Converted by db4-upgrade version 1.1 -->
+<chapter xmlns="http://docbook.org/ns/docbook" version="5.0" xml:id="getting-started">
   <title>Getting started with yocto by vishnu</title>
   <titleabbrev>Getting Started</titleabbrev>
 
@@ -12,19 +10,19 @@
             <itemizedlist>
                 <listitem>
                     <para><emphasis role="bold">To start working with yocto following packages need to install on ubuntu machine</emphasis></para>
-                    <programlisting><![CDATA[
+                    <programlisting>
 $ sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib \
 build-essential chrpath socat cpio python3 python3-pip python3-pexpect \
 xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev \
 pylint3 xterm
-                    ]]></programlisting>
+                    </programlisting>
                 </listitem>
 
                 <listitem>    
                     <para><emphasis role="bold">If you are gona building the yocto reference manual. Following packages need to install to buid documets</emphasis></para>
-                    <programlisting><![CDATA[
+                    <programlisting>
 $ sudo apt-get install make xsltproc docbook-utils fop dblatex xmlto
-                    ]]></programlisting>
+                    </programlisting>
 
                 </listitem>
             </itemizedlist> 
@@ -37,10 +35,10 @@ $ sudo apt-get install make xsltproc docbook-utils fop dblatex xmlto
     <note><itemizedlist>
       <listitem>
         <para><emphasis role="bold">To start working with yocto, we need to clone the yocto source code.
-          Yocto source code is avaiable at <ulink url='https://git.yoctoproject.org/cgit/cgit.cgi/poky/'>poky</ulink> </emphasis>
+          Yocto source code is avaiable at <link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://git.yoctoproject.org/cgit/cgit.cgi/poky/">poky</link> </emphasis>
         </para>
         <para><emphasis>Checkout the source code using git clone</emphasis></para>
-        <programlisting><![CDATA[
+        <programlisting>
 $ git clone git://git.yoctoproject.org/poky
   Cloning into 'poky'...
   remote: Enumerating objects: 476857, done.
@@ -49,15 +47,15 @@ $ git clone git://git.yoctoproject.org/poky
   Receiving objects: 100% (476857/476857), 163.70 MiB | 4.90 MiB/s, done.
   Resolving deltas: 100% (356937/356937), done.
   Checking connectivity... done.
-        ]]></programlisting>
+        </programlisting>
       </listitem>        
       
       <listitem>
         <para><emphasis role="bold">Checkout latest branch associated with yocto project release e.g zeus (3.0.3)</emphasis></para>
-        <programlisting><![CDATA[
+        <programlisting>
 $ cd poky
 $ git checkout -b zeus origin/zeus
-        ]]></programlisting>
+        </programlisting>
       </listitem></itemizedlist>
     </note>
     <!-- ... -->
@@ -65,7 +63,7 @@ $ git checkout -b zeus origin/zeus
 
   <section>
     <title>Building first Image</title>
-    <para></para>
+    <para/>
     <!-- ... -->
   </section>
 </chapter>
